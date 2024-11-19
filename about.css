@@ -1,0 +1,56 @@
+.about-container {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+    color: #00FF7F; /* Light green text */
+}
+
+.about-container {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    background-color: #1a1a1a; /* Dark background for the content */
+    box-shadow: 0px 4px 12px rgba(0, 255, 127, 0.3); /* Light green shadow */
+    border-radius: 8px;
+    text-align: center;
+}
+
+.about-container h2 {
+    margin-bottom: 20px;
+    color: #00FF7F; /* Light green heading */
+}
+
+.about-container p {
+    font-size: 1rem;
+    color: #b3ffcc; /* Soft green text for paragraphs */
+    margin-bottom: 20px;
+}
+
+section h3 {
+    color: #00FF7F;
+    margin-bottom: 10px;
+}
+
+section p {
+    color: #b3ffcc;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #32CD32; /* Bright green for links */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #00FF7F; /* Light green on hover */
+}

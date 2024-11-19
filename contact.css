@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+    color: #00FF7F; /* Light green text */
+}
+
+.contact-container {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    background-color: #1a1a1a; /* Dark background for the form */
+    box-shadow: 0px 4px 12px rgba(0, 255, 127, 0.3); /* Light green shadow */
+    border-radius: 8px;
+    text-align: center;
+}
+
+.contact-container h2 {
+    margin-bottom: 20px;
+    color: #00FF7F; /* Light green heading */
+}
+
+.contact-container p {
+    font-size: 1rem;
+    color: #b3ffcc; /* Soft green for the paragraph */
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    color: #00FF7F;
+    margin-bottom: 8px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #00FF7F;
+    background-color: #262626; /* Darker background for inputs */
+    color: #b3ffcc; /* Soft green text */
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+}
+
+form input:focus, form textarea:focus {
+    border-color: #32CD32; /* Bright green on focus */
+}
+
+button[type="submit"] {
+    background-color: #00FF7F;
+    color: #000;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #32CD32; /* Brighter green on hover */
+}

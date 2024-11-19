@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+    color: #00FF7F; /* Light green text */
+}
+
+.services-container {
+    width: 100%;
+    max-width: 700px;
+    padding: 20px;
+    background-color: #1a1a1a; /* Dark background */
+    box-shadow: 0px 4px 12px rgba(0, 255, 127, 0.3); /* Light green shadow */
+    border-radius: 8px;
+    text-align: center;
+}
+
+.services-container h2 {
+    margin-bottom: 20px;
+    color: #00FF7F; /* Light green heading */
+}
+
+.services-container p {
+    font-size: 1rem;
+    color: #b3ffcc; /* Soft green for main paragraphs */
+    margin-bottom: 20px;
+}
+
+.service-item {
+    margin-bottom: 30px;
+}
+
+.service-item h3 {
+    color: #00FF7F;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.service-item p {
+    color: #b3ffcc;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.contact-link {
+    margin-top: 20px;
+}
+
+.contact-link p {
+    color: #32CD32; /* Bright green for call to action */
+}
+
+.contact-link a {
+    color: #00FF7F;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-link a:hover {
+    color: #32CD32; /* Brighter green on hover */
+}
